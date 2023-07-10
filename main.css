@@ -1,0 +1,231 @@
+body{
+    background-color: rgb(67, 94, 115);
+    background-size: cover;
+    height:100%;
+}
+
+#home{
+    width: 30%;
+    height: 92%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    left: 70%;
+}
+img{
+    height: 100%;
+    position: absolute;
+    transform: translateX(-50%);
+    transition: bottom 3s;
+}
+#home:hover #shapes{
+    bottom: 40px;
+}
+#shapes{
+    height: 88%;
+}
+#picture{
+    height: 50%;
+    margin-top: 29%;
+    right: 73%;
+}
+nav{
+    height: 8%;
+}
+*{
+    font-family: 'Franklin Gothic Medium';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --primary-color: rgb(40, 124, 198);
+    --secondary-color: rgb(0,0,0);
+}
+#logo{
+    font-size: 27px;
+    margin-left: 40px;
+}
+.nav-bar{
+    color: white;
+    background-color: var(--primary-color);
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--primary-color);
+}
+ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+ul li a{
+    color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+ul li a:hover{
+    background-color: white;
+    color: red;
+}
+#homee{
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 18.5%;
+    margin-bottom: 18.5%;
+    width: 40%;
+    margin-left: 13%;
+}
+#homee h1,#homee h3{
+   text-shadow: 5px 5px 1px #333;
+}
+
+#AboutBtn{
+    background-color: white;
+    color: red;
+    padding: 2px 28px;
+    border-radius: 30px;
+    margin-left: 47%;
+    box-shadow: 0 0 10px;
+}
+form{
+    display: flexbox;
+    flex-direction: column;
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+   width: 40%;
+   border-radius: 15px;
+   background-color: rgb(67, 94, 115);
+   margin-left: 31%;
+}
+#form button{
+    font-size: 25px;
+    border: 0;
+    background-color: red;
+    width: 150px;
+    border-radius: 15px;
+    color: white;
+    margin-top: 15px;
+}
+form input,textarea{
+    background-color: rgb(190, 190, 190);
+    border: 0;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    width: 90%;
+}
+#form{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    text-align: center;
+}
+#images{
+    display: flex;
+    justify-content: center;
+gap: 60px;
+}
+#images img{
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+}
+#imagesHobbies{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+#imagesHobbies div{
+    margin-top: 13%;
+    flex-basis: 33%;
+}
+#imagesHobbies img{
+    height: 35%;
+    width: 25%;
+    border-radius: 30% 50% 20% 40%;
+}
+#imagesHobbies h2{
+    font-size: 40px;
+   color: white;
+   margin-top: 55%;
+   font-family: Tahoma;
+   font-style: italic;
+   letter-spacing: 3px;
+   text-shadow: 5px 5px 1px #333;
+}
+#imagesHobbies h2:hover{
+    font-size: 50px;
+   color: red;
+   margin-top: 55%;
+   font-family: Tahoma;
+   font-style: italic;
+   letter-spacing: 3px;
+   text-shadow: 5px 5px 1px #333;
+}
+#education{
+    display: inline-block;
+    margin-top: 7%;
+}
+#EducationTimeline{
+    margin: 0 auto;
+    display: grid;
+    padding: 25px;
+    grid-template-columns: 1fr 3px 1fr;
+    color: white;
+}
+.components{
+    margin: 0px 20px 20px 20px;
+}
+.dates_right{
+    text-align: left;
+}
+.dates_left{
+    text-align: right;
+}
+.middle{
+    background-color: white;
+}
+.point{
+    position: absolute;
+    border-radius: 50%;
+    right: 50%;
+    transform: translateX(50%);
+    width: 15px;
+    height: 15px;
+    background-color: red;
+}
+.descriptionEducation{
+    background-color: white;
+    color: red;
+    padding: 25px;
+    box-shadow: 0 0 10px;
+    border-radius: 15px;
+}
+#EducationTimeline h2{
+    font-style: italic;
+}
+#EducationTimeline p{
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
